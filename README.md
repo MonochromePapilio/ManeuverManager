@@ -1,8 +1,43 @@
 # ManeuverManager
 
-This repository is a project to manage the maneuvers of the TRPG "永い後日談のネクロニカ".  
-The basic function is to manage the maneuvers of each player character.  
-Maneuvers can be selected officially or unofficially, so if you wish to add an unofficial maneuver, please ask the Game Master of the session you are participating in for approval.  
+## Overview
+
+本リポジトリはテーブルトークRPGの1つである"永い後日談のネクロニカ"のマニューバを管理するためのプロジェクトです. / This repository is a project to manage the maneuvers of the TRPG "永い後日談のネクロニカ".  
+
+## Description
+
+本プロジェクトの基本的な機能はドールの管理です. / The basic function is to manage the maneuvers of each player character.  
+
+登録するマニューバは公式・非公式どちらも登録できますが、非公式のマニューバを追加したい場合は参加するセッションのゲームマスターに承認を得てください. / Maneuvers can be selected officially or unofficially, so if you wish to add an unofficial maneuver, please ask the Game Master of the session you are participating in for approval.  
+
+## Requirement
+
+* Java - openjdk version "11.0.9.1" 2020-11-04
+* Gradle - 7.3.3
+
+## Usage
+
+プロジェクトが進行中のため、こちらの項目は未執筆です. / This item has not been written yet because the project is still in progress. 
+
+## Install
+
+[Homebrew](https://brew.sh/index_ja)を事前にインストールしている場合、下記の操作は不要です. / If you have already installed [Homebrew](https://brew.sh/index_ja), you do not need to install the following.
+
+```bash
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+最初に Java をインストールします. / Install Java first. 
+
+```bash
+$ brew install java
+```
+
+次に Gradle をインストールします. / Next, install Gradle.
+
+```bash
+$ brew install gradle
+```
 
 ## DB
 
@@ -54,7 +89,3 @@ This table is for managing maneuvers.
 | is_Premising |  VARCHAR(16)  | NO | Empty premise | ---- | 前提フラグ | ---- |
 | is_official |  TYNYINT(1)  | NO | Empty premise | ---- | 公式フラグ | ---- |
 |  source  |  VARCHAR(128)  | NO | Empty source |---- | 取得元 | ---- |
-
-## Usage
-
-In development.
