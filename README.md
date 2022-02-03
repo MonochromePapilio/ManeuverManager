@@ -10,6 +10,8 @@
 
 登録するマニューバは公式・非公式どちらも登録できますが、非公式のマニューバを追加したい場合は参加するセッションのゲームマスターに承認を得てください. / Maneuvers can be selected officially or unofficially, so if you wish to add an unofficial maneuver, please ask the Game Master of the session you are participating in for approval.  
 
+インフラ構成図・DBのER図はsrc直下のdocsディレクトリを参照してください. / Please refer to the docs directory directly under src/ for the infrastructure configuration and DB ER diagrams.
+
 ## Requirement
 
 * Java - openjdk version "11.0.9.1" 2020-11-04
