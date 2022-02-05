@@ -47,6 +47,14 @@ $ brew install gradle
 $ brew install mysql@8.0
 ```
 
+## Run
+
+```bash
+$ cd ManeuverManager
+$ ./gradlew bootrun
+```
+
+
 ## DB
 
 ## users
