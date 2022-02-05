@@ -16,6 +16,7 @@
 
 * Java - openjdk version "11.0.9.1" 2020-11-04
 * Gradle - 7.3.3
+* Mysql - 8.0.28
 
 ## Usage
 
@@ -29,16 +30,21 @@
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-最初に Java をインストールします. / Install Java first. 
+最初に Java11 をインストールします. / Install Java version 11 first. 
 
 ```bash
-$ brew install java
+$ brew install java11
 ```
 
 次に Gradle をインストールします. / Next, install Gradle.
 
 ```bash
 $ brew install gradle
+```
+
+最後に MySQL をインストールします. / Last, install MySQL.
+```bash
+$ brew install mysql@8.0
 ```
 
 ## DB
