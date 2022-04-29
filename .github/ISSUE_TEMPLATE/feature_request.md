@@ -1,20 +1,15 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+# 概要
 
----
+<!-- 本Issueにおける概要を具体的な内容の記載とタグの付与を行ってください -->
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 実装箇所
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+<!-- 具体的な実装方法がある場合はこちらに記載を行ってください -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## 未実装箇所
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+<!-- 実装を行わない箇所がある場合はこちらに記載を行ってください -->
+
+## 共有事項
+
+<!-- 共有事項がある場合は記載してください -->
