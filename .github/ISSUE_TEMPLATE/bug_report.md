@@ -1,38 +1,15 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+# 概要
 
----
+<!-- 本Issueにおける概要を具体的な内容の記載とタグの付与を行ってください -->
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 修正箇所
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+<!-- 具体的な実装箇所をこちらに記載してください -->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 修正方法
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!-- 具体的な修正方法がある場合はこちらに記載を行ってください -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 共有事項
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+<!-- 共有事項がある場合は記載してください -->
