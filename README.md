@@ -10,6 +10,14 @@
 
 <!-- 具体的な技術選定が決まり開発次第記述 -->
 
+### Package Install
+
+`yarn install`
+
+### Build
+
+`yarn start`
+
 ## Features
 
 <!-- 具体的な仕様が決定され次第記載 -->
