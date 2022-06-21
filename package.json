@@ -24,6 +24,11 @@
     "stylelint-config-recommended": "^8.0.0",
     "stylelint-config-standard": "^26.0.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{ts,vue}": "eslint --fix",
     "*.{css,scss,vue}": "stylelint --fix",
